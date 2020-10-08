@@ -1,37 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
 
-// Your top level component
 import App from './App';
 
-// Export your top level component as JSX (for static rendering)
-export default App;
 
-// Render your app
-if (typeof document !== `undefined`) {
-  const target = document.getElementById(`root`);
+//import './App.css';
+import './assets/scss/style.scss';
 
-  const renderMethod = target.hasChildNodes() ?
-    ReactDOM.hydrate :
-    ReactDOM.render;
+const history = createBrowserHistory();
 
-  const render = (Comp) => {
-    renderMethod(
-      <AppContainer>
-        <Comp />
-      </AppContainer>,
-      target,
-    );
-  };
+ReactDOM.render(
+  <Router history={history}>
+    <App />
+  </Router>,
+  document.getElementById('root')
+);
 
-  // Render!
-  render(App);
 
-  // Hot Module Replacement
-  if (module && module.hot) {
-    module.hot.accept(`./App`, () => {
-      render(App);
-    });
-  }
-}
