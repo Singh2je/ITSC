@@ -53,7 +53,7 @@ const Hero = ({
           </div>
           
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <ReactPlayer url="https://youtu.be/GxgQfapi8qQ" 
+            <ReactPlayer url="https://youtu.be/P7d1H83IcjE" 
             width={899}            
             height={504}
             controls={true}>
