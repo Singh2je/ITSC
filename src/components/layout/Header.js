@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                   
-                      <Link to="#0" onClick={closeMenu}>VEaas</Link>
+                      <Link to="land">VEaas</Link>
                       <Link to="#0" onClick={closeMenu}>QA</Link>
                       <Link to="#0" onClick={closeMenu}>OCAT</Link>
                       <Link to="#0" onClick={closeMenu}>DevOps</Link>
