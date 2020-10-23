@@ -1,9 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
-
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 import ReactPlayer from 'react-player';
 
-const Hero = ({
+const VEaas = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -31,10 +32,14 @@ const Hero = ({
   );
 
   return (
+    
     <section
+    
       {...props}
       className={outerClasses}
     >
+     <Header navPosition="right" className="reveal-from-bottom" />
+
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
@@ -46,7 +51,9 @@ const Hero = ({
                 Welcome to the Mini IT Expo. Created by your very loved Jaspreet Singh. Please watch the Live stream below
                 
                 </p>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
               
+              </div>
             </div>
           </div>
           
@@ -57,15 +64,17 @@ const Hero = ({
             controls={true}>
             </ReactPlayer> 
             <div>
-
+         
             </div>
-                
+            
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 }
 
 
-export default Hero;
+
+export default VEaas;

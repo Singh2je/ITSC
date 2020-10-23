@@ -24,6 +24,12 @@
 	max-width: $container--width-xs + ( $container--padding__desktop * 2 );
 }
 
+.container-cs{
+	max-width: $container--width-xs;
+
+	;
+}
+
 [class*=container] {
 
 	[class*=container] {
