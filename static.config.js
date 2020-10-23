@@ -1,5 +1,5 @@
 import path from 'path';
-import posts from './src/data/posts.json';
+import posts from './src/data/VEaasData.json';
 
 // Typescript support in static.config.js is not yet supported, but is coming in a future update!
 

@@ -4,7 +4,7 @@ import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import ReactPlayer from "react-player";
 import "../assets/scss/style.scss";
-import showVEaasProjects from "./VEaas-projects.jsx";
+import showVEaasProjects from "./Btn1.jsx";
 import { Route } from "react-router-dom";
 import { Link } from 'react-router-dom';
 
@@ -52,7 +52,7 @@ const VEaas = ({
             </h1>
             <div className="container-cs">
 
-              <Link to="/VEaas-project">
+              <Link to="/Btn1">
                 <button className="button-primary">
                   <p>
                     Jaspreet<br></br>

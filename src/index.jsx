@@ -7,7 +7,7 @@ import VEaas from "./pages/VEaas.jsx";
 import QA from "./pages/QA.jsx";
 import OCAT from "./pages/OCAT.jsx";
 import DevOps from "./pages/DevOps.jsx";
-import showVEaasProjects from "./pages/VEaas-projects"
+import Btn1 from "./pages/Btn1.jsx"
 
 //import './App.css';
 import './assets/scss/style.scss';
@@ -22,7 +22,7 @@ ReactDOM.render(
     <Route path="/QA" component={QA}/>
     <Route path="/OCAT" component={OCAT}/>
     <Route path="/DevOps" component={DevOps}/>
-    <Route path="/VEaas-project" component={showVEaasProjects}/>
+    <Route path="/Btn1" component={Btn1}/>
   </Router>,
   document.getElementById('root')
 );
