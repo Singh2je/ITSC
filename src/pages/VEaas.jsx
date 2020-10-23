@@ -4,6 +4,10 @@ import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import ReactPlayer from "react-player";
 import "../assets/scss/style.scss";
+import showVEaasProjects from "./VEaas-projects.jsx";
+import { Route } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 
 const VEaas = ({
   className,
@@ -29,6 +33,10 @@ const VEaas = ({
     bottomDivider && "has-bottom-divider"
   );
 
+  const VEaasProjects = () => {
+    showVEaasProjects();
+  }
+
   return (
     <section {...props} className={outerClasses}>
       <Header navPosition="right" className="reveal-from-bottom" />
@@ -44,12 +52,14 @@ const VEaas = ({
             </h1>
             <div className="container-cs">
 
-              <button className="button-primary" onClick={}>
-                <p>
-                  Jaspreet<br></br>
-                  Project: Mini IT Expo
-                </p>
-              </button>
+              <Link to="/VEaas-project">
+                <button className="button-primary">
+                  <p>
+                    Jaspreet<br></br>
+                    Project: Mini IT Expo
+                  </p>
+                </button>
+              </Link>
               <br></br>
               <br></br>
               <button className="button-primary" onClick="">
