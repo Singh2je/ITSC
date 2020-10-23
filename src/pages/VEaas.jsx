@@ -44,7 +44,7 @@ const VEaas = ({
             </h1>
             <div className="container-cs">
 
-              <button className="button-primary" onClick={}>
+              <button className="button-primary">
                 <p>
                   Jaspreet<br></br>
                   Project: Mini IT Expo
