@@ -2,20 +2,26 @@
   {
     "userId": 1,
     "id": 1,
-    "Jaspreet": "Project Details here",
-    "memberNames": "Jaspreet Singh, joseph Macarie, Jenna Wasilko"
+    "Jaspreet": "Abstract: This study proposes enhanced oversight of smart homes by leveraging the social networks of homeowners to co-monitor for emergencies, while being mindful of privacy preserving features necessary for adoption. A pilot co-design workshop was conducted to determine features for co-monitoring. A group of four participants provided early findings and informed modifications to study design, and new insights for user behavior were emphasized. By refining the study design, we hope to better target users’ tacit knowledge in future workshops. Early findings include the users’ need for more than simply sharing access to a camera during an emergency in the home; users desired control over the microphone, the camera video stream, and the length of time. We believe this work will contribute to a broader understanding of features that better meet the needs and goals of smart device owners to enable co-monitoring.",
+    "Pranav": "Abstract: National Institute of Standards and Technology (NIST) recommends that organizations perform cyber risk assessments regularly to identify security vulnerabilities and to control levels of exposure to threats. We discuss a method to customize the ranking of cyber threats based on the organization’s maturity level of implementing NIST controls and we use FAIR model’s LEF component as a measure of the severity of cyber threats. The methodology integrates NIST maturity levels to calculate the resistance strength factor and produce the LEF values for each threat. The LEF value is then used to represent the severity level of the threat to the specific organization. This hybrid risk assessment approach will help stakeholders make data-informed decisions on improving security measures and provide accurate values that represent the current security state of their organization.",
+    "Anand": "Abstract: Online reviews have become very popular these days. Every single thing that we buy is dependent on the reviews. Previously, people used to review movies only. Now, with the evolution of online shopping, people started reviewing electronic gadgets (phones, earphones, speakers, etc.), clothes, accessories, home furniture, restaurants and the list keeps going on and on. With the evolution of online reviews, the retailers have taken advantage of these and started paying the reviewers money to either give a positive review of their product or a negative review of their competitors product. This has led to the growth of counterfeit reviews. People who completely rely on reviews, blindly believe them and buy their products. To avoid this, some researchers have come up with a machine learning software called fake reviewer system. This fake reviewer system, eliminates all the reviews that are counterfeit and only displays reviews that are genuine to the people. But, then are these accurate? The answer is no. In this paper, we are proposing a fake reviewer system that uses Hadoop principles like wordcount and Hive query Language and couples it with supervised machine learning algorithms to achieve a better accuracy.",
+    "Sara": "Abstract: Many buildings, such as hospitals and large schools, can be incredibly difficult to navigate with their winding hallways and multiple floors. Our project aims to help these institutions by providing an open source JavaScript library that can generate directions between any two specified locations in a building. Once given a building layout, our library, room-finder, can generate instructions across hallways and floors to find a reasonable path for a user to take. Room-finder is free to use and comes with detailed online documentation."
   },
   {
     "userId": 1,
     "id": 2,
-    "Jaspreet": "Member Names: ..............",
-    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    "Jaspreet": "Authors: Eric Burden, Rajdeep Brandopadhayay, Nathan J. Elrod, Shane Halse, Jess Kropczynski",
+    "Pranav": "Authors: Adeyinka Bakare, Hazem Said",
+    "Anand": "Authors: Jaspreet Singh, joseph Macarie, Jenna Wasilko",
+    "Sara": "Authors: Adeyinka Bakare, Hazem Said, Macarie, Jenna Wasilko"  
+  
   },
   {
     "userId": 1,
     "id": 3,
-    "Jaspreet": " Video section here",
-    "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
-  }
+    "Jaspreet": "https://www.youtube.com/watch?v=bP-4UUru1rs",
+    "Pranav": "https://www.youtube.com/watch?v=bP-4UUru1rs",
+    "Anand": "https://www.youtube.com/watch?v=bP-4UUru1rs",
+    "Sara": "https://www.youtube.com/watch?v=bP-4UUru1rs"  }
   
 ]

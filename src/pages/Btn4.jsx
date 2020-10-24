@@ -2,11 +2,10 @@ import React from "react";
 import classNames from "classnames";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
-import { Link } from 'react-router-dom';
-import PostList from "../components/PostList";
+import PostList4 from "../components/PostList4";
 
 
-const Btn1 = ({
+const Btn4 = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -44,7 +43,7 @@ const Btn1 = ({
               <span className="text-color-primary"></span>
             </h1>
             <div className="container-cs">
-            <PostList></PostList>
+            <PostList4></PostList4>
             </div>
           </div>
         </div>
@@ -54,4 +53,4 @@ const Btn1 = ({
   );
 };
 
-export default Btn1;
+export default Btn4;
