@@ -4,6 +4,8 @@ import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import ReactPlayer from "react-player";
 import "../assets/scss/style.scss";
+import { Link } from 'react-router-dom';
+
 
 const VEaas = ({
   className,
@@ -29,6 +31,10 @@ const VEaas = ({
     bottomDivider && "has-bottom-divider"
   );
 
+  const VEaasProjects = () => {
+    showVEaasProjects();
+  }
+
   return (
     <section {...props} className={outerClasses}>
       <Header navPosition="right" className="reveal-from-bottom" />
@@ -44,37 +50,44 @@ const VEaas = ({
             </h1>
             <div className="container-cs">
 
-              <button className="button-primary">
-                <p>
-                  Jaspreet<br></br>
-                  Project: Mini IT Expo
-                </p>
-              </button>
+              <Link to="/Btn1">
+                <button className="button-primary">
+                  <p>
+                    Jaspreet<br></br>
+                    Project: Mini IT Expo
+                  </p>
+                </button>
+              </Link>
               <br></br>
               <br></br>
+              <Link to="/Btn2">
               <button className="button-primary" onClick="">
                 <p>
                   Pranav<br></br>
                   Project: Mini IT Expo
                 </p>
               </button>
+            </Link>
               <br></br>
               <br></br>
+              <Link to="/Btn3">
               <button className="button-primary" onClick="">
                 <p>
                   Anand Pandey<br></br>
                   Project: Mini IT Expo
                 </p>
               </button>
+            </Link>
               <br></br>
               <br></br>
+              <Link to="/Btn4">
               <button className="button-primary" onClick="">
                 <p>
                   Sara<br></br>
                   Project: Mini IT Expo
                 </p>
               </button>
-
+              </Link>
             </div>
           </div>
         </div>
