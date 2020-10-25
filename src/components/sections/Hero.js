@@ -1,11 +1,9 @@
 import React from "react";
 import classNames from "classnames";
-import Checkbox from "../elements/Checkbox";
-import Switch from "../elements/Switch";
 import ReactPlayer from "react-player";
-import Select from "../elements/Select";
-import FormLabel from "../elements/FormLabel";
+import Timer2 from "./../Timer2";
 import Timer from "./../Timer";
+import Image from "./../elements/Image";
 
 const Hero = ({
   className,
@@ -37,9 +35,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <Timer >
-
-            </Timer>
+            <Timer></Timer>
             <h1
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
@@ -63,14 +59,13 @@ const Hero = ({
               data-reveal-value="20px"
               data-reveal-delay="800"
             >
-               <ReactPlayer 
-                url="https://youtu.be/P7d1H83IcjE"
-                width={899}
-                height={504}
-                playing={false}
-                controls={true}
-        ></ReactPlayer>
-
+              <Timer2></Timer2>
+              <Image
+                src={require("./../../assets/images/holder.png")}
+                alt="Nature Image"
+                width={1}
+                height={1}
+              ></Image>
             </div>
           </div>
         </div>
