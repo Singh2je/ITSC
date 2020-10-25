@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+
 import Logo from './partials/Logo';
-import Timer from './../Timer'
+import NavLinks from './../NavLinks'
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -113,10 +113,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                
-                      <Link to="VEaas"  >VEaas</Link>  
-                      <Link to="QA" disable="true">QA</Link>
-                      <Link to="OCAT" >OCAT</Link>
-                      <Link to="DevOps" >DevOps</Link>
+                     <NavLinks></NavLinks>
 
                   </ul>
                 </div>
