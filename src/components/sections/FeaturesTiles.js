@@ -100,7 +100,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                 <h6 className="mt-0 mb-8">
                   <div className="time">
-                  09:05 A.M - 09:10 A.M
+                  09:15 A.M - 10:10 A.M
                   </div>
                 </h6>
                   <h4 className="mt-0 mb-8">
@@ -126,7 +126,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                 <h6 className="mt-0 mb-8">
                   <div className="time">
-                  09:05 A.M - 09:10 A.M
+                  10:15 A.M - 10:10 A.M
                   </div>
                 </h6>
                   <h4 className="mt-0 mb-8">
@@ -152,7 +152,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                 <h6 className="mt-0 mb-8">
                   <div className="time">
-                  09:05 A.M - 09:10 A.M
+                  10:15 A.M - 11:10 A.M
                   </div>
                 </h6>
                   <h4 className="mt-0 mb-8">
@@ -178,7 +178,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                 <h6 className="mt-0 mb-8">
                   <div className="time">
-                  09:05 A.M - 09:10 A.M
+                  11:15 A.M - 12:10 A.M
                   </div>
                 </h6>
                   <h4 className="mt-0 mb-8">
