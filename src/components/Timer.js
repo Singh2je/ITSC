@@ -1,7 +1,4 @@
-import { remove } from "lodash";
 import React, { Component } from "react";
-import header from "./layout/Header";
-import ReactPlayer from "react-player";
 
 class Timer extends Component {
   constructor(props) {

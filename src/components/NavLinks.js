@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Groupbutton from './elements/ButtonGroup'
+import Groupbutton from "./elements/ButtonGroup";
 
 class NavLinks extends Component {
   constructor(props) {
@@ -49,12 +49,11 @@ class Box extends Component {
   render() {
     return (
       <div>
-       
-       <Groupbutton> <Link to="VEaas">VEaas</Link>
-        
-        <Link to="QA">QA </Link>
-       <Link to="OCAT">OCAT</Link>
-        <Link to="DevOps">DevOps</Link>
+        <Groupbutton>
+          <Link to="VEaas">VEaas</Link>
+          <Link to="QA">QA </Link>
+          <Link to="OCAT">OCAT</Link>
+          <Link to="DevOps">DevOps</Link>
         </Groupbutton>
       </div>
     );
@@ -63,7 +62,17 @@ class Box extends Component {
 class Box2 extends Component {
   state = {};
   render() {
-    return <div>Nav bar is blocked, Wait 5 seconds lol</div>;
+    return (
+      <div>
+       
+        <Groupbutton>
+          <Link to="#">VEaas</Link>
+          <Link to="#">QA </Link>
+          <Link to="#">OCAT</Link>
+          <Link to="#">DevOps</Link>
+        </Groupbutton>
+      </div>
+    );
   }
 }
 

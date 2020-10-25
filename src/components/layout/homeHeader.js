@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from "react-router-dom";
+
 import Logo from './partials/Logo';
-import NavLinks from './../NavLinks'
+import NavLinks from '../NavLinks'
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -21,7 +21,7 @@ const defaultProps = {
   bottomDivider: false
 }
 
-const Header = ({
+const homeHeader = ({
   className,
   navPosition,
   hideNav,
@@ -113,11 +113,8 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                
-                   
-                     <Link to="VEaas">VEaas</Link>
-                  <Link to="QA">QA </Link>
-                  <Link to="OCAT">OCAT</Link>
-                  <Link to="DevOps">DevOps</Link>
+               <NavLinks></NavLinks>
+
                   </ul>
                 </div>
               </nav>
@@ -128,7 +125,7 @@ const Header = ({
   );
 }
 
-Header.propTypes = propTypes;
-Header.defaultProps = defaultProps;
+homeHeader.propTypes = propTypes;
+homeHeader.defaultProps = defaultProps;
 
-export default Header;
+export default homeHeader;
