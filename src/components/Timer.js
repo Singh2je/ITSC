@@ -4,7 +4,7 @@ class Timer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 5,
+      count: 10,
       text: "Event Starting in:",
       secText: "seconds",
     };

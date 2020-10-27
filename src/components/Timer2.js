@@ -1,16 +1,13 @@
-import { remove } from "lodash";
-import React, { Component } from "react";
-import header from "./layout/Header";
-import ReactPlayer from "react-player";
-import Image from "./elements/Image";
 
+import React, { Component } from "react";
+import ReactPlayer from "react-player";
 class Timer2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
       show: false,
       showImg: true,
-      count: 5,
+      count: 10,
       text: "",
       secText: "",
     };

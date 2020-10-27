@@ -8,7 +8,7 @@ class NavLinks extends Component {
     this.state = {
       show: false,
       showImg: true,
-      count: 5,
+      count: 10,
       text: "",
       secText: "",
     };
