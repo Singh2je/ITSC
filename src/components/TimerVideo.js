@@ -1,7 +1,7 @@
 
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
-class Timer2 extends Component {
+class TimerVideo extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,8 +30,8 @@ class Timer2 extends Component {
         <h5>
           {text}{secText}
         </h5>
-        {this.state.showImg && <Box2 />}
-        {this.state.show && <Box />}
+        {this.state.showImg && <StaticVideo />}
+        {this.state.show && <LiveVideo />}
       </div>
     );
   }
@@ -51,7 +51,7 @@ class Timer2 extends Component {
   }
 }
 
-class Box extends Component {
+class LiveVideo extends Component {
   state = {};
   render() {
     return (
@@ -69,14 +69,14 @@ class Box extends Component {
   }
 }
 
-class Box2 extends Component {
+class StaticVideo extends Component {
   state = {};
   render() {
     return (
       <div>
         <ReactPlayer
-          url="https://youtu.be/WjoplqS1u18"
-          alt="Nature Static video"
+          url="https://youtu.be/-cMqr9HpZ-Y"
+          alt="Static video"
           width={899}
           height={504}
           playing={false}
@@ -88,4 +88,4 @@ class Box2 extends Component {
 }
 
 
-export default Timer2;
+export default TimerVideo;

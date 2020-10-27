@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import ReactPlayer from "react-player";
-import Timer2 from "./../Timer2";
+import TimerVideo from "../TimerVideo";
 import Timer from "./../Timer";
 import Image from "./../elements/Image";
 
@@ -59,7 +59,7 @@ const Hero = ({
               data-reveal-value="20px"
               data-reveal-delay="800"
             >
-              <Timer2></Timer2>
+              <TimerVideo></TimerVideo>
               <Image
                 src={require("./../../assets/images/holder.png")}
                 alt="Nature Image"
